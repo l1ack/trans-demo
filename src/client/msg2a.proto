@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package main;
+
+option go_package = "xmit.analysis";
+
+message Msg2A {
+  uint64 timestampsend = 1;
+  uint64 timestamprecv = 6;
+  uint64 seq = 2;
+  bool   mismatch = 3;
+  uint64 msgtype = 4;
+  uint64 size =5;
+}

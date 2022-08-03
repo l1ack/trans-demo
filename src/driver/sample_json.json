@@ -1,0 +1,126 @@
+<<<<<<< HEAD
+{
+    "cases": [
+        {
+            "case_id": 1,
+            "timeline": 3000000,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "server_mode":1,
+=======
+            "server_mode":2,
+>>>>>>> 6650f61... connect
+=======
+            "server_mode": 2,
+>>>>>>> ea8be24... conn-break
+=======
+            "server_mode": 1,
+>>>>>>> d358fbdfa809829caa76f31a472f7c9fa700425a
+            "server_ip":"43.153.101.29",
+            "users": [
+                {
+                    "userid": 1,
+                    "userip": "43.153.101.29",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    "disconnection_enable": true,
+                    "disconnection_mode": "random",
+                    "disconnection_prob": 0.1,
+                    "max_prob": 0.1,
+                    "min_prob": 0.01, 
+                    "disconnect_time_pattern": "random",
+                    "disconnect_time_seq": [100,200],
+                    "disconnect_min_time": 100,
+                    "disconnect_max_time": 1000,
+>>>>>>> d358fbdfa809829caa76f31a472f7c9fa700425a
+                    "interval_seq_pattern": "custom",
+                    "min_interval": -1,
+                    "max_interval": -1,
+                    "custom_interval_seq": [10],
+                    "protocol": "webRTC",
+<<<<<<< HEAD
+                    "size_seq_pattern": "random",
+                    "min_size": 500,
+                    "max_size": 5000,
+                    "custom_size_seq": [500,600]
+                },
+                {
+                    "userid": 2,
+                    "userip": "127.0.0.1",
+                    "interval_seq_pattern": "random",
+                    "min_interval": 50,
+                    "max_interval": 200,
+                    "custom_interval_seq": [],
+                    "protocol": "webRTC",
+                    "size_seq_pattern": "random",
+                    "min_size": 20,
+                    "max_size": 2000,
+                    "custom_size_seq": []
+                },
+                {
+                    "userid": 3,
+                    "userip": "127.0.0.1",
+                    "interval_seq_pattern": "random",
+                    "min_interval": 50,
+                    "max_interval": 200,
+                    "custom_interval_seq": [],
+                    "protocol": "webRTC",
+                    "size_seq_pattern": "custom",
+                    "min_size": -1,
+                    "max_size": -1,
+                    "custom_size_seq": [500,600,800,900]
+                },
+                {
+                    "userid": 4,
+                    "userip": "127.0.0.1",
+=======
+                    "disconnection_enable": true,
+                    "disconnection_mode": "random",
+                    "disconnection_prob": 0.1,
+                    "max_prob": 0.1,
+                    "min_prob": 0.01, 
+                    "disconnect_time_pattern": "random",
+                    "disconnect_time_seq": [500,600],
+                    "disconnect_min_time": 100,
+                    "disconnect_max_time": 1000,
+>>>>>>> ea8be24... conn-break
+                    "interval_seq_pattern": "custom",
+                    "min_interval": -1,
+                    "max_interval": -1,
+                    "custom_interval_seq": [100,200],
+                    "protocol": "webRTC",
+<<<<<<< HEAD
+                    "size_seq_pattern": "random",
+                    "min_size": 500,
+                    "max_size": 700,
+=======
+                    "size_seq_pattern": "custom",
+                    "min_size": 200,
+                    "max_size": 500,
+>>>>>>> ea8be24... conn-break
+=======
+                    "size_seq_pattern": "custom",
+                    "min_size": 200,
+                    "max_size": 500,
+>>>>>>> d358fbdfa809829caa76f31a472f7c9fa700425a
+                    "custom_size_seq": [500,600]
+                }
+
+            ]
+            
+        }
+    ]
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> ea8be24... conn-break
+=======
+}
+>>>>>>> d358fbdfa809829caa76f31a472f7c9fa700425a
+=======
+"cases": [ { "case_id": 1, "timeline": 3000000, "server_mode": 2, "server_ip":"43.153.101.29", "users": [ { "userid": 1, "userip": "43.153.101.29", "disconnection_enable": false, "disconnection_mode": "", "disconnection_prob": 0, "max_prob": 0.0, "min_prob": 0.0, "disconnect_time_pattern": "", "disconnect_time_seq": [], "disconnect_min_time": 0, "disconnect_max_time": 0, "interval_seq_pattern": "custom", "min_interval": -1, "max_interval": -1, "custom_interval_seq": [100,200], "protocol": "webRTC", "size_seq_pattern": "random", "min_size": 100, "max_size": 1000, "custom_size_seq": [] } ] "case_id": 1, "timeline": 3000000, "server_mode": 2, "server_ip":"43.153.101.29", "users": [ { "userid": 1, "userip": "43.153.101.29", "disconnection_enable": true, "disconnection_mode": "fixed",  "disconnection_prob": 0.01, "max_prob": 0, "min_prob": 0, "disconnect_time_pattern": "random", "disconnect_time_seq": [], "disconnect_min_time": 500, "disconnect_max_time": 2000, "interval_seq_pattern": "custom", "min_interval": -1, "max_interval": -1, "custom_interval_seq": [100,200], "protocol": "webRTC", "size_seq_pattern": "random", "min_size": 100, "max_size": 1000, "custom_size_seq": [] } ] "case_id": 1, "timeline": 3000000, "server_mode": 2, "server_ip":"43.153.101.29", "users": [ { "userid": 1, "userip": "43.153.101.29", "disconnection_enable": true, "disconnection_mode": "fixed", "disconnection_prob": 0.2,  "max_prob": 0, "min_prob": 0, "disconnect_time_pattern": "custom", "disconnect_time_seq": [500], "disconnect_min_time": 0, "disconnect_max_time": 0, "interval_seq_pattern": "custom", "min_interval": -1, "max_interval": -1, "custom_interval_seq": [100,200], "protocol": "webRTC", "size_seq_pattern": "random", "min_size": 100, "max_size": 1000, "custom_size_seq": [] } ] "case_id": 1, "timeline": 3000000, "server_mode": 2, "server_ip":"43.153.101.29", "users": [ { "userid": 1, "userip": "43.153.101.29", "disconnection_enable": true, "disconnection_mode": "random", "disconnection_prob": 0, "max_prob": 0.5, "min_prob": 0.01, "disconnect_time_pattern": "random", "disconnect_time_seq": [], "disconnect_min_time": 100, "disconnect_max_time": 2500, "interval_seq_pattern": "random", "min_interval": 200, "max_interval": 1000, "custom_interval_seq": [], "protocol": "webRTC", "size_seq_pattern": "random", "min_size": 100, "max_size": 1000, "custom_size_seq": [] } ]
+>>>>>>> 4c1b76f... conn-2
